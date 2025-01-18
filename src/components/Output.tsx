@@ -11,6 +11,8 @@ import History from "./commands/History";
 import Projects from "./commands/Projects";
 import Socials from "./commands/Socials";
 import Themes from "./commands/Themes";
+import ResumeFr from "./commands/ResumeFr";
+import ResumeEn from "./commands/ResumeEn";
 import { OutputContainer, UsageDiv } from "./styles/Output.styled";
 import { termContext } from "./Terminal";
 import { useContext } from "react";
@@ -39,7 +41,9 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           echo: <Echo />,
           education: <Education />,
           email: <Email />,
-          gui: <Gui />,
+          // gui: <Gui />,
+          ResumeFr: <ResumeFr />,
+          ResumeEn: <ResumeEn />,
           help: <Help />,
           history: <History />,
           projects: <Projects />,

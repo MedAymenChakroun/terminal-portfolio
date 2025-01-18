@@ -56,28 +56,22 @@ const Projects: React.FC = () => {
 const projects = [
   {
     id: 1,
-    title: "Sat Naing's Blog",
-    desc: "My personal blog where I can write down my thoughts and experiences.",
-    url: "https://satnaing.dev/blog/",
+    title: "DevOps Project",
+    desc: "Designed and implemented a comprehensive CI/CD pipeline for a Spring-Boot/Angular application.",
+    // url: "https://satnaing.dev/blog/",
   },
   {
     id: 2,
-    title: "Haru Fashion",
-    desc: "An ecommerce web application where users can browse various products and make purchases.",
+    title: "MediMind: ESPRIT Cloud Integrated Project",
+    desc: "Developed and deployed a healthcare web application that uses AI and advanced algorithms to improve patients experience by providing them professional medical assistance.",
     url: "https://haru-fashion.vercel.app/",
   },
   {
     id: 3,
-    title: "Haru API",
-    desc: "A RESTful API developed for the Haru fashion ecommerce project.",
-    url: "https://satnaing.github.io/haru-api/",
-  },
-  {
-    id: 4,
-    title: "AstroPaper Blog Theme",
-    desc: "A minimal, accessible and SEO-friendly Astro blog theme.",
-    url: "https://astro-paper.pages.dev/",
-  },
+    title: "Cross-Platform E-Delivery Application- Wakalni",
+    desc: "Developed a cross-platform e-delivery website (Desktop, Web, Mobile) using JavaFX, Symfony and Codename One.",
+    // url: "https://satnaing.github.io/haru-api/",
+  }
 ];
 
 export default Projects;
