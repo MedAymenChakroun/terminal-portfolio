@@ -35,6 +35,7 @@ export const commands: Command = [
   // { cmd: "gui", desc: "go to my portfolio in GUI", tab: 10 },
   // { cmd: "ResumeFr", desc: "view my resume in French", tab: 5 },
   // { cmd: "ResumeEn", desc: "view my resume in English", tab: 5 },
+  //
   { cmd: "help", desc: "check available commands", tab: 9 },
   { cmd: "history", desc: "view command history", tab: 6 },
   { cmd: "projects", desc: "view projects that I've coded", tab: 5 },
